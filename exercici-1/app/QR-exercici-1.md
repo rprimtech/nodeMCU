@@ -1,2 +1,0 @@
-
-Escaneja aquest codi.
