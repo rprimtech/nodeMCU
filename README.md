@@ -1,1 +1,1 @@
-# nodeMCU-
+# Pràctiques d'electrònica digital amb nodeMCU
