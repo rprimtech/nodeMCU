@@ -1,6 +1,6 @@
 # Instal·lació del suport per ESP8266 a l'Arduino IDE
 
-Starting with 1.8.5, Arduino allows installation of third-party platform packages using Boards Manager. We have packages available for Windows, Mac OS, and Linux (32 and 64 bit).
+Starting with 1.8.10, Arduino allows installation of third-party platform packages using Boards Manager. We have packages available for Windows, Mac OS, and Linux (32 and 64 bit).
 
 * Install the current upstream Arduino IDE at the 1.8 level or later. The current version is at the Arduino website.
 * Start Arduino and open Preferences window.
@@ -11,11 +11,14 @@ Recomanació d'utilització de les GPIO's:
 
 | GPIO | Consell |
 |---|---|
-| GPIO9 | NO UTILITZAR |
+| ADCO | ENTRADA ANALÒGICA |
+| GPIO4 | I2C (SDA) |
+| GPIO5 | I2C (SCL) |
+| GPIO9 | NO UTILITZAR MAI |
 | GPIO10 | UTILITZAR PER SENSORS |
 | GPIO0 | PER SORTIDA, AMB PULL-UP |
 | GPIO2 | PER SORTIDA, AMB PULL-UP |
-| GPIO15 | PER SORTIDA, AMB PULL-DOWN |
+| GPIO15 | PER NEOPIXEL |
 | GPIO1 | NO UTILITZAR |
 | GPIO3 | NO UTILITZAR |
 | GPIO16 | BUILTIN LED |
