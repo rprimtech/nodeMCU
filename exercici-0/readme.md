@@ -11,7 +11,7 @@ Recomanació d'utilització de les GPIO's:
 
 | GPIO | Consell |
 |---|---|
-| ADCO | ENTRADA ANALÒGICA |
+| ADC0 | ENTRADA ANALÒGICA |
 | GPIO4 | I2C (SDA) |
 | GPIO5 | I2C (SCL) |
 | GPIO9 | NO UTILITZAR MAI |
