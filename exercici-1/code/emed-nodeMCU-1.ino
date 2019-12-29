@@ -24,8 +24,8 @@ void setup()
 
   //Blynk.begin(auth, ssid, pass);
   // You can also specify server:
-  Blynk.begin(auth, ssid, pass, "vps249990.ovh.net", 8080);
-  //Blynk.begin(auth, ssid, pass, IPAddress(192,168,1,100), 8080);
+  //Blynk.begin(auth, ssid, pass, "vps249990.ovh.net", 8080);
+  //Blynk.begin(auth, ssid, pass, IPAddress(167,86,87,117), 8080);
 }
 
 void loop()
