@@ -1,7 +1,7 @@
-//emed-nodeMCU-1
-//28.12.2019
-//nodeMCU
-//@rPrimTech       Jaume Nogués
+//fitxer: emed-nodeMCU-1.ino
+//cpu: esp8266 nodeMCU
+//data: 28.12.2019
+//@rPrimTech Jaume Nogués
 
 #define BLYNK_PRINT Serial
 
