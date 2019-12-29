@@ -1,3 +1,8 @@
+//fitxer: intermita.ino
+//cpu: esp8266 nodeMCU
+//data: 28.12.2019
+//@rPrimTech Jaume Nogués
+
 void setup() {
   pinMode(16, OUTPUT);
 }
