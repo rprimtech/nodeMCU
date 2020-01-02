@@ -1,0 +1,80 @@
+[
+    {
+        "id": "6cd22a02.37e144",
+        "type": "inject",
+        "z": "b40a6e1d.30f9f",
+        "name": "ON 08:00h",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "",
+        "crontab": "00 08 * * 1,2,3,4,5",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 210,
+        "y": 200,
+        "wires": [
+            [
+                "66632ab5.6669c4"
+            ]
+        ]
+    },
+    {
+        "id": "66632ab5.6669c4",
+        "type": "http request",
+        "z": "b40a6e1d.30f9f",
+        "name": "ON H1 (GPIO0)",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": false,
+        "url": "http://167.86.87.117:8080/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/update/D0?value=0",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 440,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e33ca161.0d3ce8",
+        "type": "inject",
+        "z": "b40a6e1d.30f9f",
+        "name": "OFF 21:00h",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "",
+        "crontab": "00 21 * * *",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 210,
+        "y": 240,
+        "wires": [
+            [
+                "441d912.32bf4f"
+            ]
+        ]
+    },
+    {
+        "id": "441d912.32bf4f",
+        "type": "http request",
+        "z": "b40a6e1d.30f9f",
+        "name": "OFF H1 (GPIO0)",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": false,
+        "url": "http://167.86.87.117:8080/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/update/D0?value=1",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 450,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    }
+]
