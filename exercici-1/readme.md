@@ -16,6 +16,8 @@ Ara amb l'ajuda de [node-red](http://localhost:1880) configura les seguents cara
 * API per encendre el llum H1 (GPIO0) http://167.86.87.117:8080/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/update/D0?value=0
 * API per apagar el llum H1 (GPIO0) http://167.86.87.117:8080/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/update/D0?value=1
 
+![](images/node-red-1.png)
+
 
 
 
