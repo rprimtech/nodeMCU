@@ -10,9 +10,12 @@ El punt de llum H1 s'encendrà automàticament a les 8:00 hores de cada matí de
 
 El punts de llum H1 i H2 s'apagarà automàticament a les 21:00 hores.
 
-La obertura d'una de les finestres enviarà una notificació a l'app.
+L'obertura d'una de les finestres enviarà una notificació a l'app.
 
 A l'app es graficarà els valors mesurats pels diferents sensors.
+
+* API per encendre el llum H1 (GPIO0) http://167.86.87.117:8080/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/update/D0?value=0
+* API per apagar el llum H1 (GPIO0) http://167.86.87.117:8080/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/update/D0?value=1
 
 
 
