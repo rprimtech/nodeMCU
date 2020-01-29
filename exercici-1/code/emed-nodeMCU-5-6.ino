@@ -149,7 +149,7 @@ void checkInputsOutputs()
       {
         Blynk.notify("Finestra OBERTA!!");//Max. 1 notificació cada 5 segons 
         Blynk.virtualWrite(V6,"OBERTA"); 
-        //Blynk.email("jnogues@gmail.com", "ALERTA!!", "Finestra OBERTA!!");//Max. 1 mail cada 5 segons
+        //Blynk.email("pepito@gmail.com", "ALERTA!!", "Finestra OBERTA!!");//Max. 1 mail cada 5 segons
        }
    }
   prevstateGPIO14=stateGPIO14;
